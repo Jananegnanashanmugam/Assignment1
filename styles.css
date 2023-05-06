@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Montserrat:wght@100;200;300;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,900&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+span {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./2400-empty-white-wooden-wall-on-wooden-floor-interior-design-3d-rendering.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navItem {
+  color: skyblue;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.navItem:hover {
+  text-decoration: underline;
+  color: white;
+}
+.title {
+  color: darkorchid;
+  font-family: "Alegreya", serif;
+  font-weight: 200;
+  font-size: 40px;
+}
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  color: teal;
+}
+.clcikItem {
+  border: 2px solid black;
+  padding: 15px 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  border-radius: 50px;
+  color: skyblue;
+}
+.clcikItem:hover {
+  background-color: white;
+  color: black;
+}
+h3 {
+  text-align: center;
+}
+.bottom-icon {
+  text-align: center;
+}
